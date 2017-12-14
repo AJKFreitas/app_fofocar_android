@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_title_display_name">
+
+    <EditTextPreference android:key="@string/user_name_pt"
+        android:title="@string/Nome_de_usuario_pt"
+        android:summary="@string/Defina_seu_nome_de_usuario_pt"/>
+
+        <EditTextPreference android:key="@string/Passworld_en"
+        android:title="@string/senha_pt"
+        android:summary="@string/Defina_sua_senha_de_acesso_pt"/>
+    </PreferenceCategory>
+</PreferenceScreen>
+
